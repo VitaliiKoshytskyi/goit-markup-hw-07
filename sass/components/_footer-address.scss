@@ -1,0 +1,51 @@
+.address {
+  &__mail,
+  &__tel {
+    display: block;
+    width: 231px;
+    height: 21px;
+    color: var(--primary-telmail-color);
+    text-decoration: none;
+  }
+
+  &__mail {
+    margin-bottom: 9px;
+  }
+
+  &__list {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    font-style: normal;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+    color: var(--secondary-text-color);
+    display: inline-block;
+  }
+
+  &__link {
+    display: inline-block;
+    width: 145px;
+    height: 31px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    margin-bottom: 20px;
+  }
+
+  &__googlemap {
+    display: inline-block;
+    width: 231px;
+    height: 21px;
+    margin-bottom: 9px;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+  }
+}
