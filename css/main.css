@@ -834,6 +834,9 @@ img {
   height: 581px;
   background-color: var(--secondary-text-color);
   padding: 40px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
   -webkit-transition: -webkit-transform var(--trns);
   transition: -webkit-transform var(--trns);
   transition: transform var(--trns);
@@ -877,12 +880,14 @@ img {
   margin-top: 10px;
 }
 .form__input {
-  padding: 11px 10px 11px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   -webkit-transition: border-color var(--trns), cursor var(--trns);
   transition: border-color var(--trns), cursor var(--trns);
   outline: 1px solid transparent;
+}
+.form__input:not(:last-child) {
+  padding: 11px 10px 11px 42px;
 }
 .form__input:hover, .form__input:focus {
   border-color: var(--accent-color);
@@ -988,6 +993,7 @@ img {
   line-height: 1.16px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  padding-top: 6px;
 }
 
 ::-moz-placeholder {
@@ -996,6 +1002,7 @@ img {
   line-height: 1.16px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  padding-top: 6px;
 }
 
 :-ms-input-placeholder {
@@ -1004,6 +1011,7 @@ img {
   line-height: 1.16px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  padding-top: 6px;
 }
 
 ::-ms-input-placeholder {
@@ -1012,6 +1020,7 @@ img {
   line-height: 1.16px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  padding-top: 6px;
 }
 
 ::placeholder {
@@ -1020,4 +1029,5 @@ img {
   line-height: 1.16px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  padding-top: 6px;
 }/*# sourceMappingURL=main.css.map */
